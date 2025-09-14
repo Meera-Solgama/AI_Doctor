@@ -21,7 +21,7 @@ class HealthAssistant:
             "recommendation": "Drink water and rest.",
             "conditions": [{"condition": "Mild fever", "confidence": 0.75}],
             "recommended_doctors": [
-                {"name": "Dr. Smith", "specialty": "General Physician", "rating": 4.5,
+                {"name": "Dr. Meera", "specialty": "General Physician", "rating": 4.5,
                  "distance_km": 2.3, "contact": "123-456-7890"}
             ]
         }
@@ -58,3 +58,4 @@ class HealthAssistant:
 
 class HealthAssistantCLI:
     pass
+
